@@ -1,15 +1,16 @@
 package com.prakash.swachhbharatbackend.services;
 
-import com.prakash.swachhbharatbackend.SwachhBharatBackendApplication;
-import com.prakash.swachhbharatbackend.exceptions.NotFoundException;
-import com.prakash.swachhbharatbackend.models.User;
-import com.prakash.swachhbharatbackend.repositories.UserRepository;
-import com.prakash.swachhbharatbackend.services.implementation.UserProfileServiceImpl;
 import org.junit.jupiter.api.*;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.project.swachhbharatbackend.SwachhBharatBackendApplication;
+import com.project.swachhbharatbackend.exceptions.NotFoundException;
+import com.project.swachhbharatbackend.models.User;
+import com.project.swachhbharatbackend.repositories.UserRepository;
+import com.project.swachhbharatbackend.services.implementation.UserProfileServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;

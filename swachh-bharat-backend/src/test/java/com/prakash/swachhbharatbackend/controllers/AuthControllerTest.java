@@ -1,13 +1,15 @@
 package com.prakash.swachhbharatbackend.controllers;
 
-import com.prakash.swachhbharatbackend.SwachhBharatBackendApplication;
-import com.prakash.swachhbharatbackend.services.implementation.AuthServiceImpl;
 import org.junit.jupiter.api.*;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.project.swachhbharatbackend.SwachhBharatBackendApplication;
+import com.project.swachhbharatbackend.controllers.AuthController;
+import com.project.swachhbharatbackend.services.implementation.AuthServiceImpl;
 
 import java.util.logging.Logger;
 

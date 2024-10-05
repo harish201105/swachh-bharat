@@ -1,17 +1,18 @@
 package com.prakash.swachhbharatbackend.services;
 
-import com.prakash.swachhbharatbackend.SwachhBharatBackendApplication;
-import com.prakash.swachhbharatbackend.exceptions.AlreadyExistsException;
-import com.prakash.swachhbharatbackend.models.Role;
-import com.prakash.swachhbharatbackend.models.User;
-import com.prakash.swachhbharatbackend.repositories.RoleRepository;
-import com.prakash.swachhbharatbackend.repositories.UserRepository;
-import com.prakash.swachhbharatbackend.services.implementation.AuthServiceImpl;
 import org.junit.jupiter.api.*;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.project.swachhbharatbackend.SwachhBharatBackendApplication;
+import com.project.swachhbharatbackend.exceptions.AlreadyExistsException;
+import com.project.swachhbharatbackend.models.Role;
+import com.project.swachhbharatbackend.models.User;
+import com.project.swachhbharatbackend.repositories.RoleRepository;
+import com.project.swachhbharatbackend.repositories.UserRepository;
+import com.project.swachhbharatbackend.services.implementation.AuthServiceImpl;
 
 import java.util.Optional;
 
